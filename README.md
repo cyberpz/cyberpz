@@ -5,24 +5,21 @@
 </h1>
 
 
-<p align="center">
-  <img src="https://github.com/faroukbmiled/faroukbmiled/blob/main/img/ryuk.gif" width="850" height="300"><br/>
-  <a href="https://twitter.com/Farouk_B_Miled">
-    <img src="https://img.shields.io/badge/-@Farouk_B_Miled-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white" alt="Twitter Badge">
-  </a>
-  <a href="https://www.linkedin.com/in/farouk-ben-miled-43553022b/">
-    <img src="https://img.shields.io/badge/-Farouk_B_Miled-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge">
-  </a>
-  <a href="https://medium.com/@faroukbmiled">
-    <img src="https://img.shields.io/badge/-@faroukbmiled-03a57a?style=flat-square&labelColor=000000&logo=Medium" alt="Medium Badge">
-  </a>
-  <a href="mailto:faroukbmiled@gmail.com">
-    <img src="https://img.shields.io/badge/-Gmail-c14438?style=flat-square&logo=Gmail&logoColor=white" alt="Gmail Badge">
-  </a>
-  <a class="badge" href="https://replit.com/@DeathN0te?username=DeathN0te&tab=repls" target="_blank">
-    <img src="https://cdn.discordapp.com/attachments/864300985740427264/1045315107242127461/logotype.png" alt="replit" width="75"/>
-  </a>
-</p>
+<div align="center">
+
+<a href="https://discord.gg/e5S8WZmE">
+<img alt="Discord" src="https://img.shields.io/discord/957671690035417098">
+</a>
+<a href="https://www.linkedin.com/in/giuseppe-vitale-3b476b117/">
+<img src="https://img.shields.io/badge/-Giuseppe Vitale-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge">
+</a>
+
+<a href="https://cyber.pz.it">
+<img alt="Website" src="https://img.shields.io/website?up_message=cyber.pz.it&up_color=green&down_color=black&url=https%3A%2F%2Fcyber.pz.it&style=plastic&link=https%3A%2F%2Fcyber.pz.it"/>
+</a>
+
+
+</div>
 
 ```python
 class Pz:
