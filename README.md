@@ -4,21 +4,19 @@
   </a>
 </h1>
 
-
 <div align="center">
-
+<p align="center">
+  <img src="https://cyber.pz.it/assets/pz_logo_nobg.png" width="50%"/>
+</p>
 <a href="https://discord.gg/e5S8WZmE">
 <img alt="Discord" src="https://img.shields.io/discord/957671690035417098">
 </a>
 <a href="https://www.linkedin.com/in/giuseppe-vitale-3b476b117/">
 <img src="https://img.shields.io/badge/-Giuseppe Vitale-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge">
 </a>
-
 <a href="https://cyber.pz.it">
 <img alt="Website" src="https://img.shields.io/website?up_message=cyber.pz.it&up_color=green&down_color=black&url=https%3A%2F%2Fcyber.pz.it&style=plastic&link=https%3A%2F%2Fcyber.pz.it"/>
 </a>
-
-
 </div>
 
 ```python
@@ -58,12 +56,6 @@ if __name__ == '__main__':
   <tr>
     <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="./img/csharp-original.svg" width="48" height="48" alt="C#" />
-      </a>
-      <br>C#&nbsp;(Core)
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
         <img src="./img/python-original.svg" width="48" height="48" alt="Python" />
       </a>
       <br>Python
@@ -79,12 +71,6 @@ if __name__ == '__main__':
         <img src="https://jsonnet.org/img/isologo.svg" width="48" height="48" alt="Jsonnet" />
       </a>
       <br>Jsonnet
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech">
-        <img src="./img/typescript-original.svg" width="48" height="48" alt="TypeScript" />
-      </a>
-      <br>TypeScript
     </td>
     <td align="center" width="96">
       <a href="#macropower-tech">
@@ -154,26 +140,11 @@ if __name__ == '__main__':
       </a>
       <br>Grafana
     </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech" >
-        <img src="https://github.com/cncf/artwork/blob/master/projects/prometheus/icon/color/prometheus-icon-color.svg" width="48" height="48" alt="Prometheus" />
-      </a>
-      <br>Prometheus
-    </td>
-    <td align="center" width="96">
-      <a href="#macropower-tech" >
-        <img src="https://raw.githubusercontent.com/cncf/artwork/master/projects/thanos/icon/color/thanos-icon-color.svg" width="48" height="48" alt="Thanos" />
-      </a>
-      <br>Thanos
-    </td>
   </tr>
  
  
 </table>
-<h2 align="left"></h2>
-<p align="left">
-  <img src="https://github-readme-activity-graph.cyclic.app/graph?username=cyberpz&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
-</p>
+
 <hr>
 <div style="display: flex;">
   <p style="flex: 1; align-items: center;">
