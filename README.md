@@ -24,18 +24,19 @@ class Pz:
 
     def __init__(self):
         self.username = 'cyber.pz'
-        self.name = 'Giuseppe Vitale'
-        self.code = {
+        self.irl_name = 'Giuseppe Vitale'
+        self.coding = {
             'backend': ['Python', 'Java', 'PHP', 'NodeJS'],
-            'frontend': ['HTML', 'CSS', 'JavaScript', 'ReactJS', 'Boostrap', 'JQuery', 'Angular'],
-            'database': ['MySQL', 'Oracle', 'MsSQL', 'SQLite3', 'Mongo DB'],
+            'frontend': ['HTML', 'CSS', 'JS', 'React', 'Boostrap', 'JQuery', 'Angular'],
+            'database': ['MySQL', 'Oracle', 'MSSQL', 'SQLite3', 'Mongo DB', 'Postgre', 'Node4j'],
             'devops': ['Docker', 'Apache', 'Nginx', 'ReplIT', 'AWS', 'Heroku', 'Jenkins', 'Sterling B2B Integrator', 'SAG WebMethods'],
-            'tools': "A ton of them to make a list, maybe in the future",
+            'tools': "Even a paperclip is a tool, therefore i cannot afford to make a list that would occupy terabytes of pure text"
         }
-        self.gaming = ['COD BO1 ZM']
+        self.trading = ['Binance', 'Finandy','ByBit', 'PancakeSwap', 'MetaTrader 4/5', 'cTrader'] 
+        self.gaming = ['COD BO1 ZM', 'LOL', 'Valorant']
 
     def __str__(self):
-        return self.name
+        return self.irl_name
 
 
 if __name__ == '__main__':
@@ -50,8 +51,6 @@ if __name__ == '__main__':
 
 <h2 align="left" id="macropower-tech">Favorite Tech</h2>
 
-> Tools, languages, and other things..
-
 <table align="center">
   <tr>
     <td align="center" width="96">
@@ -62,9 +61,9 @@ if __name__ == '__main__':
     </td>
     <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="./img/go-flat.svg" width="48" height="48" alt="Golang" />
+        <img src="https://logodix.com/logo/1625680.png" width="48" height="48" alt="PHP" />
       </a>
-      <br>Go
+      <br>PHP
     </td>
     <td align="center" width="96">
       <a href="#macropower-tech">
@@ -124,9 +123,9 @@ if __name__ == '__main__':
     </td>
     <td align="center" width="96">
       <a href="#macropower-tech">
-        <img src="https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_128.svg" width="48" height="48" alt="Powershell" />
+        <img src="https://products.containerize.com/devops/portainer/menu_image.png" width="48" height="48" alt="Portainer" />
       </a>
-      <br>Powershell
+      <br>Portainer
     </td>
     <td align="center"  width="96">
       <a href="#macropower-tech">
