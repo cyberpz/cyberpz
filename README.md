@@ -45,10 +45,6 @@ if __name__ == '__main__':
 ```
 <h2 align="left"></h2>
 <p href="https://github.com/cyberpz">
-<p align="center" float="left">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=cyberpz&show_icons=true&theme=tokyonight" width="420" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cyberpz&theme=tokyonight&layout=compact" width="420" />
-</p>
 
 <h2 align="left" id="macropower-tech">Favorite Tech</h2>
 
