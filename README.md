@@ -36,7 +36,7 @@ class Pz:
             'fav_genres': ['Deep House', 'Techno', 'Hard Dance', 'Hard Bounce', 'Hard Rock', 'Rap/Trap', 'Piano']
 
     def __str__(self):
-        return self.irl_name
+        return "Giuseeeeee!"
 
 
 if __name__ == '__main__':
