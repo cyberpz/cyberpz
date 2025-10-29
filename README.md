@@ -12,9 +12,6 @@
 <a href="https://discord.gg/e5S8WZmE">
 <img alt="Discord" src="https://img.shields.io/discord/957671690035417098">
 </a>
-<a href="https://www.linkedin.com/in/giuseppe-vitale-3b476b117/">
-<img src="https://img.shields.io/badge/-Giuseppe Vitale-blue?style=flat-square&logo=Linkedin&logoColor=white" alt="Linkedin Badge">
-</a>
 <a href="https://cyber.pz.it">
 <img alt="Website" src="https://img.shields.io/website?up_message=cyber.pz.it&up_color=green&down_color=black&url=https%3A%2F%2Fcyber.pz.it&style=plastic&link=https%3A%2F%2Fcyber.pz.it"/>
 </a>
@@ -25,16 +22,18 @@ class Pz:
 
     def __init__(self):
         self.username = 'cyber.pz'
-        self.irl_name = 'Giuseppe Vitale'
         self.coding = {
             'backend': ['Python', 'Java', 'PHP', 'NodeJS'],
             'frontend': ['HTML', 'CSS', 'JS', 'React', 'Boostrap', 'JQuery', 'Angular'],
-            'database': ['MySQL', 'Oracle', 'MSSQL', 'SQLite3', 'Mongo DB', 'Postgre', 'Node4j'],
+            'database': ['MySQL', 'Oracle', 'MSSQL', 'SQLite', 'Mongo', 'Postgre', 'N4j'],
             'devops': ['Docker', 'Apache', 'Nginx', 'ReplIT', 'AWS', 'Heroku', 'Jenkins', 'Sterling B2B Integrator', 'SAG WebMethods'],
-            'tools': "Even a paperclip is a tool, therefore i cannot afford to make a list that would occupy terabytes of pure text"
+            'vision': ['OpenCV', 'Yolo', 'Stable Diffusion', 'LLM', 'RAGs']
         }
         self.trading = ['Binance', 'Finandy','ByBit', 'PancakeSwap', 'MetaTrader 4/5', 'cTrader'] 
-        self.gaming = ['COD BO1 ZM', 'LOL', 'Valorant']
+        self.gaming = ['BF6', 'COD Mobile','COD MW2 DMZ' 'COD BO ZM', 'LOL', 'Valorant']
+        self.music  = {
+            'DAW': 'Ableton Live',
+            'fav_genres': ['Deep House', 'Techno', 'Hard Dance', 'Hard Bounce', 'Hard Rock', 'Rap/Trap', 'Piano']
 
     def __str__(self):
         return self.irl_name
