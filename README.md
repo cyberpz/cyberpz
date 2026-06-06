@@ -29,6 +29,14 @@ class Pz:
             'devops': ['Docker', 'Apache', 'Nginx', 'ReplIT', 'AWS', 'Heroku', 'Jenkins', 'Sterling B2B Integrator', 'SAG WebMethods'],
             'vision': ['OpenCV', 'Yolo', 'Stable Diffusion', 'LLM', 'RAGs']
         }
+        self.ai = {
+            'agents': ['Hermes Agent', 'Domus', 'Cerberus', 'Lucem'],
+            'llm_serving': ['LM Studio', 'Ollama', 'llama.cpp', 'vLLM'],
+            'models': ['Hermes-3-Llama-3.1-8B', 'GLM-4.6v', 'Kimi K2.6'],
+            'memory': ['Mem0', 'Qdrant', 'RAG', 'FTS5 session search'],
+            'tooling': ['MCP', 'Skills system', 'Cron orchestration', 'Multi-agent delegation'],
+            'fine_tuning': ['Axolotl', 'Unsloth', 'TRL', 'LoRA/QLoRA']
+        }
         self.trading = ['Binance', 'Finandy','ByBit', 'PancakeSwap', 'MetaTrader 4/5', 'cTrader'] 
         self.gaming = ['BF6', 'COD Mobile','COD MW2 DMZ' 'COD BO ZM', 'LOL', 'Valorant']
         self.music  = {
@@ -139,6 +147,17 @@ if __name__ == '__main__':
  
  
 </table>
+
+<h2 align="left">🤖 Active Projects</h2>
+
+- **Hermes Agent fork** — [`cyberpz/hermes-agent`](https://github.com/cyberpz/hermes-agent)
+  Fork del self-improving AI agent. Branch `cyberpz-patches`: dashboard plugins, Kanban multi-agent, patch locali su upstream NousResearch.
+- **Domus** — Maggiordomo AI self-hosted
+  Memoria semantica (Mem0 + Qdrant), inference locale su 2x GTX 980 Ti, voce TTS/STT, integrazione smart home (Shelly, Hue).
+- **Cerberus** — Sorveglianza perimetrale
+  12 camere CCTV via Dahua NVR API, heartbeat, zone-check, presence detection.
+- **Telegram Operations** — Gateway conversazionale
+  Hermes su Telegram (DM + supergruppi), cronjob, monitoraggio servizi, briefing automatici.
 
 <hr>
 <div style="display: flex;">
