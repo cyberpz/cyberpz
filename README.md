@@ -6,9 +6,9 @@
 
 
 <div align="center">
-<p align="center">
+<!--p align="center">
   <img src="https://cyber.pz.it/assets/pz_logo_nobg.png" width="50%"/>
-</p>
+</p-->
 <a href="https://discord.gg/e5S8WZmE">
 <img alt="Discord" src="https://img.shields.io/discord/957671690035417098">
 </a>
@@ -30,18 +30,17 @@ class Pz:
             'vision': ['OpenCV', 'Yolo', 'Stable Diffusion', 'LLM', 'RAGs']
         }
         self.ai = {
-            'agents': ['Hermes Agent', 'Domus', 'Cerberus', 'Lucem'],
-            'llm_serving': ['LM Studio', 'Ollama', 'llama.cpp', 'vLLM'],
-            'models': ['Hermes-3-Llama-3.1-8B', 'GLM-4.6v', 'Kimi K2.6'],
-            'memory': ['Mem0', 'Qdrant', 'RAG', 'FTS5 session search'],
-            'tooling': ['MCP', 'Skills system', 'Cron orchestration', 'Multi-agent delegation'],
+            'agents': ['Hermes Agent', 'openclaw', 'openHuman', 'Domus', 'Cerberus', 'Lucem'],
+            'llm_serving': ['LM Studio', 'llama.cpp', 'vLLM'],
+            'favourite_models': ['Qwen3.6-35b-a3b', 'Hermes-3-Llama-3.1-8B', 'GLM-5.1', 'Kimi K2.6'],
+            'memory': ['Mem0', 'Qdrant', 'RAG', 'FTS5'],
             'fine_tuning': ['Axolotl', 'Unsloth', 'TRL', 'LoRA/QLoRA']
         }
         self.trading = ['Binance', 'Finandy','ByBit', 'PancakeSwap', 'MetaTrader 4/5', 'cTrader'] 
-        self.gaming = ['BF6', 'COD Mobile','COD MW2 DMZ' 'COD BO ZM', 'LOL', 'Valorant']
+        self.gaming = ['BF6', 'COD Mobile','COD MW2 DMZ' 'COD BO ZM']
         self.music  = {
             'DAW': 'Ableton Live',
-            'fav_genres': ['Deep House', 'Techno', 'Hard Dance', 'Hard Bounce', 'Hard Rock', 'Rap/Trap', 'Piano']
+            'fav_genres': ['Hard Dance', 'Hard Bounce', 'Deep House', 'Tech House', 'Techno', 'Hard Rock', 'Rap', 'Piano']
 
     def __str__(self):
         return "Giuseeeeee!"
@@ -53,7 +52,19 @@ if __name__ == '__main__':
 <h2 align="left"></h2>
 <p href="https://github.com/cyberpz">
 
-<h2 align="left" id="macropower-tech">Favorite Tech</h2>
+<h2 align="left">🤖 Active Projects</h2>
+
+- **Hermes Agent fork** — [`cyberpz/hermes-agent`](https://github.com/cyberpz/hermes-agent)
+  Fork del self-improving AI agent. Branch `cyberpz-patches`: dashboard plugins, Kanban multi-agent, patch locali su upstream NousResearch.
+- **Domus** — Maggiordomo AI self-hosted
+  Memoria semantica (Mem0 + Qdrant), inference locale su 2x GTX 980 Ti, voce TTS/STT, integrazione smart home (Shelly, Hue).
+- **Cerberus** — Sorveglianza perimetrale
+  12 camere CCTV via Dahua NVR API, heartbeat, zone-check, presence detection.
+- **Telegram Operations** — Gateway conversazionale
+  Hermes su Telegram (DM + supergruppi), cronjob, monitoraggio servizi, briefing automatici.
+
+
+<h2 align="left" id="macropower-tech">Favorite Tech of the decade 2010 - 2020</h2>
 
 <table align="center">
   <tr>
@@ -148,18 +159,6 @@ if __name__ == '__main__':
  
 </table>
 
-<h2 align="left">🤖 Active Projects</h2>
-
-- **Hermes Agent fork** — [`cyberpz/hermes-agent`](https://github.com/cyberpz/hermes-agent)
-  Fork del self-improving AI agent. Branch `cyberpz-patches`: dashboard plugins, Kanban multi-agent, patch locali su upstream NousResearch.
-- **Domus** — Maggiordomo AI self-hosted
-  Memoria semantica (Mem0 + Qdrant), inference locale su 2x GTX 980 Ti, voce TTS/STT, integrazione smart home (Shelly, Hue).
-- **Cerberus** — Sorveglianza perimetrale
-  12 camere CCTV via Dahua NVR API, heartbeat, zone-check, presence detection.
-- **Telegram Operations** — Gateway conversazionale
-  Hermes su Telegram (DM + supergruppi), cronjob, monitoraggio servizi, briefing automatici.
-
-<hr>
 <div style="display: flex;">
   <p style="flex: 1; align-items: center;">
     ⭐️ From <a href="https://github.com/cyberpz"> cyber.pz </a>
