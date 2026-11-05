@@ -27,25 +27,24 @@ class Pz:
             'frontend': ['HTML', 'CSS', 'JS', 'React', 'Boostrap', 'JQuery', 'Angular'],
             'database': ['MySQL', 'Oracle', 'MSSQL', 'SQLite', 'Mongo', 'Postgre', 'N4j'],
             'devops': ['Docker', 'Apache', 'Nginx', 'ReplIT', 'AWS', 'Heroku', 'Jenkins', 'Sterling B2B Integrator', 'SAG WebMethods'],
-            'vision': ['OpenCV', 'Yolo', 'Stable Diffusion', 'LLM', 'RAGs']
         }
         self.ai = {
-            'agents': ['Hermes Agent (fork)', 'openclaw', 'openHuman', 'Domus', 'Cerberus', 'Lucem', 'SegreterIA'],
-            'orchestration': ['multi-agent delegation', 'subagents', 'cron jobs', 'Kanban', 'n8n', 'MCP'],
-            'skills': '157 custom skills / 21 categories (cyberpz-skills)',
-            'llm_serving': ['LM Studio', 'llama.cpp (speculative decoding, KV quant)', 'vLLM', 'Ollama'],
-            'favourite_models': ['Qwen3.6-35b-a3b', 'Hermes-3-Llama-3.1-8B', 'GLM-5.1', 'Kimi K2.6'],
-            'memory': ['Mem0', 'Qdrant', 'pgvector RAG', 'FTS5', 'AgentMemory'],
-            'voice': ['full-duplex pipeline', 'VAD → STT (Whisper) → LLM → TTS', 'live ASR'],
+            'agents': ['Hermes Agent (maior.Domus)', 'openclaw', 'openHuman', 'custom-harnesses', 'Pi.dev'],
+            'orchestration': ['multi-agent delegation', 'MCP', 'adversarial-review', 'loop prompting' ],
+            'llm_serving': ['Halogen.cpp', 'llama.cpp', 'vLLM', 'Torch', 'Unsloth','LM Studio'],
+            'favourite_models': ['Qwen3.8-Flash-Next', 'Qwen3.6-35b-a3b', 'GLM-5.1', 'Kimi K2.6'],
+            'memory': ['Mem0','iii', 'Qdrant', 'pgvector', 'FTS5', 'AgentMemory', 'Honcho'],
+            'voice': ['full-duplex pipeline', 'Chained pipe VAD→STT→LLM→TTS', 'live ASR', 'openWakeWord'],
             'browser': ['browser-use', 'remote browser bridge', 'Chrome MV3 automation'],
             'fine_tuning': ['Axolotl', 'Unsloth', 'TRL', 'LoRA/QLoRA'],
             'evals': ['golden-case evals', 'A/B benchmark tra modelli locali'],
+            'vision': ['OpenCV', 'YoloNet', 'Stable Diffusion']
         }
-        self.trading = ['Binance', 'Finandy','ByBit', 'PancakeSwap', 'MetaTrader 4/5', 'cTrader'] 
+        self.trading = ['Binance', 'Finandy', 'ByBit', 'PancakeSwap', 'MetaTrader 4/5', 'cTrader'] 
         self.gaming = ['BF6', 'COD Mobile','COD MW2 DMZ' 'COD BO ZM']
         self.music  = {
             'DAW': 'Ableton Live',
-            'fav_genres': ['Hard Dance', 'Hard Bounce', 'Deep House', 'Tech House', 'Techno', 'Hard Rock', 'Rap', 'Piano']
+            'fav_genres': ['Hard Dance', 'Hard Bounce', 'Deep House', 'Tech House', 'Techno', 'Hard Rock', 'Rap', 'Piano', 'Jazz', 'Boogie Woogie']
 
     def __str__(self):
         return "Giuseeeeee!"
