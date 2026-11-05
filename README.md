@@ -23,7 +23,7 @@ class Pz:
     def __init__(self):
         self.username = 'cyber.pz'
         self.coding = {
-            'started-in': '2013 as professional developer'
+            'started-in': '2013 as fullstack developer'
             'backend': ['Python', 'Java', 'PHP', 'NodeJS'],
             'frontend': ['HTML', 'CSS', 'JS', 'React', 'Boostrap', 'JQuery', 'Angular'],
             'database': ['MySQL', 'Oracle', 'MSSQL', 'SQLite', 'Mongo', 'Postgre', 'N4j'],
