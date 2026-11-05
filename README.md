@@ -30,11 +30,16 @@ class Pz:
             'vision': ['OpenCV', 'Yolo', 'Stable Diffusion', 'LLM', 'RAGs']
         }
         self.ai = {
-            'agents': ['Hermes Agent', 'openclaw', 'openHuman', 'Domus', 'Cerberus', 'Lucem'],
-            'llm_serving': ['LM Studio', 'llama.cpp', 'vLLM'],
+            'agents': ['Hermes Agent (fork)', 'openclaw', 'openHuman', 'Domus', 'Cerberus', 'Lucem', 'SegreterIA'],
+            'orchestration': ['multi-agent delegation', 'subagents', 'cron jobs', 'Kanban', 'n8n', 'MCP'],
+            'skills': '157 custom skills / 21 categories (cyberpz-skills)',
+            'llm_serving': ['LM Studio', 'llama.cpp (speculative decoding, KV quant)', 'vLLM', 'Ollama'],
             'favourite_models': ['Qwen3.6-35b-a3b', 'Hermes-3-Llama-3.1-8B', 'GLM-5.1', 'Kimi K2.6'],
-            'memory': ['Mem0', 'Qdrant', 'RAG', 'FTS5'],
-            'fine_tuning': ['Axolotl', 'Unsloth', 'TRL', 'LoRA/QLoRA']
+            'memory': ['Mem0', 'Qdrant', 'pgvector RAG', 'FTS5', 'AgentMemory'],
+            'voice': ['full-duplex pipeline', 'VAD → STT (Whisper) → LLM → TTS', 'live ASR'],
+            'browser': ['browser-use', 'remote browser bridge', 'Chrome MV3 automation'],
+            'fine_tuning': ['Axolotl', 'Unsloth', 'TRL', 'LoRA/QLoRA'],
+            'evals': ['golden-case evals', 'A/B benchmark tra modelli locali'],
         }
         self.trading = ['Binance', 'Finandy','ByBit', 'PancakeSwap', 'MetaTrader 4/5', 'cTrader'] 
         self.gaming = ['BF6', 'COD Mobile','COD MW2 DMZ' 'COD BO ZM']
@@ -62,6 +67,38 @@ if __name__ == '__main__':
   12 camere CCTV via Dahua NVR API, heartbeat, zone-check, presence detection.
 - **Telegram Operations** — Gateway conversazionale
   Hermes su Telegram (DM + supergruppi), cronjob, monitoraggio servizi, briefing automatici.
+
+
+<h2 align="left">🧠 Agent Stack</h2>
+
+Specializzazione: **agenti autonomi local-first** — inference, memoria e tool girano su hardware proprio, zero dipendenze cloud.
+
+**Orchestrazione**
+- Fork di [Hermes Agent](https://github.com/cyberpz/hermes-agent): subagent delegation, cron jobs, Kanban multi-agente, profili multi-identità
+- **SegreterIA**: assistente amministrativo multi-tenant self-hosted (fatturazione, clienti, workflow N8N)
+- MCP server + tool calling affidabile anche su modelli piccoli (2B–8B)
+
+**Skills & Tools**
+- **157 skill custom** in 21 categorie (repo `cyberpz-skills`): devops (31), creative (21), productivity (21), mlops (17), media (13), smart-home (7), social-media (8)…
+- Browser automation: browser-use, remote browser bridge (guidare il browser dell'utente), estensioni Chrome MV3
+- Automazione casa: flotta Shelly Gen1/2/3 via HTTP/MQTT+TLS, Sonos, Sonnen, NVR Dahua, rilevazione persone via CV
+
+**Memoria & RAG**
+- Stack memoria: Mem0 + Qdrant + FTS5 + AgentMemory
+- RAG: pgvector + embedding Ollama, pipeline documentali su DB PostgreSQL
+
+**Voce**
+- Pipeline full-duplex: VAD → STT (Whisper) → LLM → TTS
+- ASR live in tempo reale (domus-forger), Moshi, cloning con ElevenLabs
+
+**Serving & Training**
+- llama.cpp con speculative decoding e KV cache quantization per GGUF MoE su 24GB VRAM
+- Fine-tuning QLoRA con Axolotl / Unsloth / TRL
+- Evals: golden-case + benchmark A/B tra modelli locali prima di ogni deploy
+
+**Integrazioni operative**
+- Telegram: bot, canali, Telethon (azioni lato utente)
+- Monitoring: Prometheus + Grafana, health-check automatici, runner notturni per benchmark
 
 
 <h2 align="left" id="macropower-tech">Favorite Tech of the decade 2010 - 2020</h2>
