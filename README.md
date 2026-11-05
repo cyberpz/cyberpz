@@ -23,12 +23,15 @@ class Pz:
     def __init__(self):
         self.username = 'cyber.pz'
         self.coding = {
+            'started-in': '2013 as professional developer'
             'backend': ['Python', 'Java', 'PHP', 'NodeJS'],
             'frontend': ['HTML', 'CSS', 'JS', 'React', 'Boostrap', 'JQuery', 'Angular'],
             'database': ['MySQL', 'Oracle', 'MSSQL', 'SQLite', 'Mongo', 'Postgre', 'N4j'],
             'devops': ['Docker', 'Apache', 'Nginx', 'ReplIT', 'AWS', 'Heroku', 'Jenkins', 'Sterling B2B Integrator', 'SAG WebMethods'],
         }
         self.ai = {
+            'started-in': '2018 at university with Computer Vision',
+            'updated-in': '2026 the Agentic way, safely and locally adopting in-house Intelligence'
             'agents': ['Hermes Agent (maior.Domus)', 'openclaw', 'openHuman', 'custom-harnesses', 'Pi.dev'],
             'orchestration': ['multi-agent delegation', 'MCP', 'adversarial-review', 'loop prompting' ],
             'llm_serving': ['Halogen.cpp', 'llama.cpp', 'vLLM', 'Torch', 'Unsloth','LM Studio'],
