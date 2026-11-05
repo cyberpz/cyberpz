@@ -23,7 +23,7 @@ class Pz:
     def __init__(self):
         self.username = 'cyber.pz'
         self.coding = {
-            'started-in': '2013 as fullstack developer'
+            'started-in': '2013 as fullstack developer',
             'backend': ['Python', 'Java', 'PHP', 'NodeJS'],
             'frontend': ['HTML', 'CSS', 'JS', 'React', 'Boostrap', 'JQuery', 'Angular'],
             'database': ['MySQL', 'Oracle', 'MSSQL', 'SQLite', 'Mongo', 'Postgre', 'N4j'],
@@ -31,7 +31,7 @@ class Pz:
         }
         self.ai = {
             'started-in': '2018 at university with Computer Vision',
-            'updated-in': '2026 the Agentic way, safely and locally adopting in-house Intelligence'
+            'updated-in': '2026 the Agentic way, safely and locally adopting in-house Intelligence',
             'agents': ['Hermes Agent (maior.Domus)', 'openclaw', 'openHuman', 'custom-harnesses', 'Pi.dev'],
             'orchestration': ['multi-agent delegation', 'MCP', 'adversarial-review', 'loop prompting' ],
             'llm_serving': ['Halogen.cpp', 'llama.cpp', 'vLLM', 'Torch', 'Unsloth','LM Studio'],
@@ -48,6 +48,7 @@ class Pz:
         self.music  = {
             'DAW': 'Ableton Live',
             'fav_genres': ['Hard Dance', 'Hard Bounce', 'Deep House', 'Tech House', 'Techno', 'Hard Rock', 'Rap', 'Piano', 'Jazz', 'Boogie Woogie']
+        }
 
     def __str__(self):
         return "Giuseeeeee!"
